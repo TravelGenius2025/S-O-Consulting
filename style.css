@@ -1,0 +1,17 @@
+
+body{margin:0;font-family:'Inter',Arial,sans-serif;background:#fff;color:#1a1a1a}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;border-bottom:1px solid #eee}
+nav a{margin-left:20px;text-decoration:none;color:#0A3D91;font-weight:600}
+.hero{position:relative;height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;color:white}
+.hero video{position:absolute;width:100%;height:100%;object-fit:cover;z-index:-1}
+.hero-overlay{background:rgba(0,0,0,0.6);padding:60px;border-radius:10px}
+.section{padding:80px 8%}
+.dark{background:#0A3D91;color:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+.card{background:white;padding:25px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.12)}
+.dark .card{background:#163f7a;color:white}
+.card img{width:100%;border-radius:8px;margin-bottom:12px}
+.stat{font-size:42px;font-weight:bold;color:#2F80ED}
+#map{height:500px}
+.clock{font-size:26px;font-weight:bold;color:#2F80ED}
+footer{background:#0A3D91;color:white;text-align:center;padding:30px}
